@@ -15,7 +15,7 @@ public class CustomerController {
 	IRepository irrp;
 	
   
-    // Get all publishers
+   
     @GetMapping(value = "/getAllInsurancePolicies")
     public List<InsurancePolicy> getAllInsurancePolicies() {
         System.out.println("varshu");
